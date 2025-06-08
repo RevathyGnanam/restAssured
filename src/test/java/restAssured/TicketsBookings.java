@@ -1,4 +1,4 @@
-package TestngTopics;
+package restAssured;
 
 import org.testng.annotations.Test;
 
@@ -21,5 +21,6 @@ public class TicketsBookings {
 		String threadName = Thread.currentThread().getName();
 		System.out.println(threadName + " is trying to book the ticket");
 		TicketsBookings.book(threadName);
+		
 	}
 }

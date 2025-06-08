@@ -4,9 +4,8 @@
   <test thread-count="5" name="TicketsBookingTest">
 
     <classes>
-      <class name="TestngTopics.TicketsBookings"/>
+      <class name="restAssured.TicketsBookings"/>
     </classes>
   </test> <!-- Test -->
- 
   
 </suite> <!-- Suite -->
